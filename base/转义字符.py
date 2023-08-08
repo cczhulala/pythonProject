@@ -1,10 +1,13 @@
 # 编写人 : 陈昌志
 # 开发时间 : 2022/7/24 16:37
-
+#coding:utf-8
 #  \反斜杠是转义字符 \\  \'   \"
 
 #  \n换行  \r回车  \t水平制表符  \b退格   一个制表位有4个  hello=4+1，加制表符只有3个空
+#
+'''
 
+'''
 print('hello\nworld')
 print('hello\bworld')
 print('hello\rworld') #覆盖了hello
