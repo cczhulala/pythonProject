@@ -5,7 +5,7 @@
 r = range(10)
 print(r)#这个不能查看r中的数字
 print(list(r))#list是列表的意思，用于查看range中的整数序列
-
+print(type(r))
 #2
 b = range(5,10)#从5开始，不包含10，因为宇宙无限，默认步长为1
 print(list(b))
