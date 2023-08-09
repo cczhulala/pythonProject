@@ -10,7 +10,7 @@ del score['张三']#删除键值对
 print(score)
 
 score.clear()#清空
-
+print(score)
 #增加
 score['陈六'] = 100
 print(score)
