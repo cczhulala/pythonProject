@@ -97,7 +97,7 @@ def search():
             mode=input('按ID查找请输入1，按姓名查找请输入2：')
             if mode == '1':
                 id=input('请输入学生ID')
-            elif mode=='3':
+            elif mode=='2':
                 name=input('请输入学生姓名：')
             else:
                 print('您的输入有误，请重新输入')
@@ -155,7 +155,6 @@ def delect():
             flag = False  # 标记是否删除
             if student_old:
                 with open(filename, 'w', encoding='utf-8') as wfile:
-                    d = {}
                     for item in student_old:
                         d = dict(eval(item))  # 将字符串转成字典
                         if d['id'] != student_id:
