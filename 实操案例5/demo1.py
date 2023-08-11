@@ -11,3 +11,6 @@ for num in range(100,1000):
 print(lst)
 #这里会输出0而不是000，千年虫问题
 print(str(000))
+
+
+#sasdas
